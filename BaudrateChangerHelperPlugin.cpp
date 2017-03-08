@@ -80,7 +80,6 @@ void BaudrateChangerHelperPlugin::selectBauderate(long baud)
 
 BaudrateChangerHelperPlugin::~BaudrateChangerHelperPlugin()
 {
-    qDebug() << "BaudrateChangerHelperPlugin::~BaudrateChangerHelperPlugin";
     delete ui;
 }
 
